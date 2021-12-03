@@ -37,6 +37,14 @@ struct PF_pars
 end
 ```
 
+## How to run the code?
+The simulations folder contains some simulation scripts in .jl or .ipynb format. To run the .jl simulations e.g. run
+```
+julia simulations/0changepoints_small.jl 
+```
+from the dynamic_GGM_mcmc directory.
+
+
 ## The model
 
 ### Prior on graphs:
